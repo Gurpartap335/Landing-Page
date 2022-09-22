@@ -44,4 +44,36 @@ body {
 
 /* header-sub */
 
+.header-sub {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-sub-left {
+    margin-left: 100px;
+}
+
+.header-sub-right {
+    margin-right: 100px;
+}
+
+.heading {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.heading-content {
+    font-size: 14px;
+    color: #F9FAF8;
+}
+
+.button button {
+    margin-top: 15px;
+    font-size: 15px;
+    color: #F9FAF8;
+    background-color: blue;
+}
+
 
