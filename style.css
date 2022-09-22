@@ -2,12 +2,6 @@ ul {
     list-style: none;
 }
 
-/* html, body {
-    margin: 10px; 
-    padding: 10px;
-    background-color: #ffeead;
-}*/
-
 body {
     margin: 0;
     padding: 0;
@@ -78,6 +72,9 @@ body {
 
 
 /*main-content*/
+.main {
+    min-height: 300px;
+}
 .title {
     display: flex;
     color: #1f2937;
@@ -108,4 +105,29 @@ body {
 
 .text {
     text-align: center;
+}
+
+
+/* quote */
+.qoute {
+    background-color: #E5E7EB;
+    min-height: 300px;
+    
+}
+
+.quote-text {
+    font-size: 24px;
+    color: #1F2937;
+    font-family: italic;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+.quote-text-said {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1F2937;
+    font-family: italic;
 }
