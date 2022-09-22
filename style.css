@@ -1,0 +1,47 @@
+ul {
+    list-style: none;
+}
+
+/* html, body {
+    margin: 10px; 
+    padding: 10px;
+    background-color: #ffeead;
+}*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1F2937;
+    color: white;
+    min-height: 300px;
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.nav-header, ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 22px;
+}
+
+.links li {
+    padding: 10px;
+    font-size: 14px;
+}
+
+/* header-sub */
+
+
